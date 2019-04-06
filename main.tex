@@ -61,7 +61,7 @@
 
 \begin{document}
 
-\title{Moja borba\\ \small{Seminarski rad u okviru kursa\\Metodologija stručnog i naučnog rada\\ Matematički fakultet}}
+\title{Hakovanje - večita igra nadmudrivanja\\ \small{Seminarski rad u okviru kursa\\Metodologija stručnog i naučnog rada\\ Matematički fakultet}}
 
 \author{Nikola Dimić, Đorđe Pantelić, Nikola Živković,\\Mladen Canović\\ dimic.nikola@gmail.com, pantelicdjole94@gmail.com,\\nmzivkovic@gmail.com, mladen.canovic@gmail.com}
 
@@ -88,11 +88,9 @@ upada i obmane \ref{hakovanje}. U nastavku rada, biće reči o tipovima zlonamer
 \section{Hakovanje}
 \label{hakovanje}
 
-Izraz “haker”, sada se više odnosio na “osobu, koja uživa u potpunom razumevanju internog funkcionisanja sistema, računara i mreža” \cite{hacker_definition}.
+Hakovanje (eng.~{\em Hacking}) predstavlja iskorišćavanje nedostataka sistema, računara ili računarskih mreža. Najčešća meta jesu ljudi koji rade na tom sistemu i ova vrsta napada predstavlja društveni inženjering (eng. \textit{social engineering}).
 
-Hakovanje (eng.~{\em Hacking}) može predstavljati iskorišćavanje nedostataka sistema, računara ili računarskih mreža. Najčešća meta jesu ljudi koji rade na tom sistemu i ova vrsta napada predstavlja društveni inženjering (eng. \textit{social engineering}).
-
-Pored zlonamernih napadača (eng. \textit{Black hat}), hakeri uz dozvolu administratora upadaju u sisteme u cilju testiranja njihove sigurnosti. Oni predstavljaju etičke hakere (eng. \textit{White hat}). Hakeri iz sive zone (eng. \textit{Gray hat}), zarad dokazivanja svojih veština, vrše napade bez dozvole ali ne u nameri da nanesu značajnu štetu. Pored njih postoje hakeri koji se žalažu za određenu ideju ili cilj (eng. \textit{Hacktivists}), čiji su najpoznatiji predstavnici grupa Anonimusi (eng. \textit{Anonymous}) \cite{hackers_hat}.
+Pored zlonamernih napadača (eng. \textit{Black hat}), postoje hakeri koji uz dozvolu administratora upadaju u sisteme u cilju testiranja njihove sigurnosti. Oni predstavljaju etičke hakere (eng. \textit{White hat}). Hakeri iz sive zone (eng. \textit{Gray hat}), zarad dokazivanja svojih veština, vrše napade bez dozvole ali ne u nameri da nanesu značajnu štetu. Pored njih postoje hakeri koji se žalažu za određenu ideju ili cilj (eng. \textit{Hacktivists}), čiji su najpoznatiji predstavnici grupa Anonimusi (eng. \textit{Anonymous}) \cite{hackers_hat}.
  
 \subsection{Umetnost upada}
 \label{sec:intrusion}
@@ -126,7 +124,7 @@ Informatičko ratovanje (eng. \textit{Cyberwarfare}) predstavlja način na koje 
 
 Koristeći četiri \textit{zero-day}\footnote{Zero-day propusti predstavljaju ranjivosti sistema za koje zna samo napadač.} propusta u operativnom sistemu \textit{Microsoft Windows}, virus je bio u mogućnosti da sebe iskopira na sve računare u lokalnoj mreži potpuno neprimetno. Kada se bi se našao na nekom od računara \textit{Stuxnet} je menjao kôd \textit{Step7} alata kompanije \textit{Siemens} za upravljanje kontrolerima i ubrzavao rad centrifugalnih mašina kako bi vremenom došlo do njihovog kvara. Korisnicima bi bili prikazani lažni podaci na osnovu kojih se ne bi moglo zaključiti da nešto nije u redu. \textit{Stuxnet} se sastoji od tri modula od kojih jedan izvodi glavni deo napada, drugi prebacuje virus na ostale računare, a treći sakriva sve zlonamerne procese i datoteke kako bi onemogućio otkrivanje. U sistem je ubačen preko zaraženog \textit{USB} uređaja.
 
-Na samitu o računarskoj bezbednosti u Meksiko Sitiju 2015. godine laboratorija Kasperski (rus. \textit{Лаборатория Касперского}) je objavila otkriće postojanja \textit{Equation} grupe, koja je dobila ime zbog izuzetno sofisticiranog algoritma za šifrovanje koji je razvila. Izveštaji navode da grupa postoji od 2001. godine. Zbog veoma naprednih tehnika i visokog nivoa prikrivenosti, grupa se povezuje sa nacionalnom bezbednosnom agencijom (eng. \textit{National Security Agency, NSA}) Sjedinjenih Američkih Država. Otkriveno da su pre ili u isto vreme koristili iste \textit{zero-day} napade koji su korišćeni i u virusu \textit{Stuxnet} te se pretpostavljalo da su oni bili odgovorni za razvoj ovog virusa. Laboratorija Kasperski je grupu opisala kao daleko najsofisticiraniju koja je ikada otkrivena.
+Na samitu o računarskoj bezbednosti u Meksiko Sitiju 2015. godine laboratorija Kasperski (rus. \textit{Лаборатория Касперского}) je objavila otkriće postojanja \textit{Equation} grupe, koja je dobila ime zbog izuzetno sofisticiranog algoritma za šifrovanje koji je razvila. Izveštaji navode da grupa postoji od 2001. godine. Zbog veoma naprednih tehnika i visokog nivoa prikrivenosti, grupa se povezuje sa nacionalnom bezbednosnom agencijom (eng. \textit{National Security Agency, NSA}) Sjedinjenih Američkih Država. Otkriveno je da su pre ili u isto vreme koristili iste \textit{zero-day} napade koji su korišćeni i u virusu \textit{Stuxnet} te se pretpostavljalo da su oni bili odgovorni za razvoj ovog virusa. Laboratorija Kasperski je grupu opisala kao daleko najsofisticiraniju koja je ikada otkrivena.
 
 Pored virusa \textit{Stuxnet} povezuju se i sa zlonamernim programom \textit{Flame} otkrivenim 2012. godine koji predstavlja najkompleksniji virus ikada napravljen \cite{flame}. Sastoji se od deset grupa modula koji su prikazani u tabeli \ref{table:1}.
 
@@ -151,7 +149,7 @@ Pored virusa \textit{Stuxnet} povezuju se i sa zlonamernim programom \textit{Fla
 \label{table:1}
 \end{table}
 
-Ovaj virus se koristio za špijunažu u zemljama bliskog istoka, pretežno Iranu. Program je mogao da se širi preko lokalnih mreža, kao i preko uređaja koji poseduju {\em Bluetooth}. Mogao je nezapaženo da snima zvuk i ekran, da registruje unos sa tastature i svu komunikaciju preko mreže. Informacije je slao serverima, koji su korišćeni za upravljanje i čekao dalja uputstva od njih. Posedovao je i \textit{kill} komandu koja je brisala sve tragove postojanja virusa na računaru, a koja je poslata odmah pošto je virus prvi put otkriven. U izveštaju kompanije Kasperski se navodi da je \textit{Equation} grupa ta koja je pomogla napadačima dok je \textit{CrySyS Lab}\footnote{ Laboratorija za kriptografiju i bezbednost sistema, Univerzitet tehnologije i ekonomije u Budimpešti.} kao odgovorne za razvoj virusa \textit{Flame} označio bezbednosnu agenciju zemlje sa 'značajnim budžetom i kapacitetima' \cite{flame}.
+Ovaj virus se koristio za špijunažu u zemljama bliskog istoka, pretežno Iranu. Program je mogao da se širi preko lokalnih mreža, kao i preko uređaja koji poseduju {\em Bluetooth}. Mogao je nezapaženo da snima zvuk i ekran, da registruje unos sa tastature i svu komunikaciju preko mreže. Informacije je slao serverima, koji su korišćeni za upravljanje i čekao dalja uputstva od njih. Posedovao je i \textit{kill} komandu koja je brisala sve tragove postojanja virusa na računaru, a koja je poslata odmah pošto je virus prvi put otkriven. U izveštaju laboratorije Kasperski se navodi da je \textit{Equation} grupa ta koja je pomogla napadačima, dok je \textit{CrySyS Lab}\footnote{ Laboratorija za kriptografiju i bezbednost sistema, Univerzitet tehnologije i ekonomije u Budimpešti.} kao odgovorne za razvoj virusa \textit{Flame} označio bezbednosnu agenciju zemlje sa 'značajnim budžetom i kapacitetima' \cite{flame}.
 
 \subsection{Umetnost obmane}
 \label{deception}
@@ -163,45 +161,77 @@ faktora, što je često veoma lako. Vrsta napada, koji se
 svodi na prevaru žrtve da oda poverljive informacije ili
 napravi izmene u sistemu na kojem radi, a koje nisu u
 njenom interesu, naziva se društveni inženjering
-(eng.~{\em Social engineering}) \cite{deception}.
+(eng.~{\em social engineering}) \cite{deception}.
 
-Napadi društvenih inženjera uspevaju kada ljudi nisu dovoljno upoznati sa dobrom praksom u bezbednosti. Uprkos tome što kompanija ili pojedinac, zarad svoje bezbednosti, kupi sve moguće alate i obuči svoje zaposlene o merama predostrožnosti, ona je i dalje ranjiva jer je ljudski faktor najslabija karika bezbednosnog sistema.
+Osobe koje koriste nedostatke u ljudskoj prirodi, zarad ostvarenja svog cilja, nazivaju se društveni inženjeri (eng.~{\em social engineers}). Napadi društvenih inženjera uspevaju kada ljudi nisu dovoljno upoznati sa dobrom praksom u bezbednosti. Uprkos tome što kompanija ili pojedinac, zarad svoje bezbednosti, kupi sve moguće alate i obuči svoje zaposlene o merama predostrožnosti, ona je i dalje ranjiva jer je ljudski faktor najslabija karika bezbednosnog sistema.
 
-Osobe koje koriste nedostatke u ljudskoj prirodi, zarad ostvarenja svog cilja, poznate su kao društveni inženjeri (eng.~{\em Social engineers}). Društveni inženjeri umeju sa ljudima, šarmantni su i harizmatični - osobine koje omogućavaju pridobijanje poverenja i prisnosti sa žrtvom. Iskusni društveni inženjer, koristeći svoje umeće obmane, je u stanju da izvuče željenu informaciju ili inicira određenu radnju žrtve. Strategije za napad, koje oni koriste, sačinjene su od više različitih pristupa. Navedeni su neki od njih \cite{deception}.
+Društveni inženjeri umeju sa ljudima, šarmantni su i harizmatični - osobine koje omogućavaju pridobijanje poverenja i prisnosti sa žrtvom. Iskusni društveni inženjer, koristeći svoje umeće obmane, je u stanju da izvuče željenu informaciju ili inicira određenu radnju žrtve. Strategije za napad, koje oni koriste, sačinjene su od više različitih pristupa. Navedeni su neki od njih \cite{deception}.
 
-\paragraph{Elementi strategije društvenih inženjera}
+\paragraph{Elementi strategija društvenih inženjera}
 \begin{itemize}
 \item \textbf{Skrivena vrednost informacija}
 
-Društveni inženjeri često koriste informacije o firmi, koje su naizgled neškodljive, a mogu biti od velikog značaja za ostvarenje cilja. Poznavanje osnovnih pravila, načina ponašanja i izražavanja, procedura, često korišćenih termina i skraćenica unutar firme ili unutar određenog odeljenja firme, mogu biti presudan parametar napada \ref{hack_za_ginisa}.
+Društveni inženjeri često koriste informacije o firmi, koje su naizgled neinteresantne, a mogu biti od velikog značaja za ostvarenje cilja. Poznavanje osnovnih pravila, načina ponašanja i izražavanja, procedura, često korišćenih termina i skraćenica unutar firme ili unutar određenog odeljenja firme, mogu biti presudan faktor napada \ref{hack_za_ginisa}.
 
 \item \textbf{Zloupotreba poverenja}
 
-Poverenje je ključ prevare. Društveni inženjeri planiraju svoj napad vrlo temeljno, pokušavaju da predvide pitanja koja bi žrtva mogla postaviti. Pokušavaju da vode razgovor koji, za žrtvu, ne izlazi van okvira uobičajenog. Kada žrtve nemaju razloga za sumnju, napadačima je lako da pridobiju njihovo poverenje i, koristeći svoje veštine, ostvare svoje ciljeve.
+Poverenje je ključ prevare. Društveni inženjeri 
+planiraju svoj napad vrlo temeljno, pokušavajući da 
+predvide pitanja koja bi žrtva mogla postaviti. Vode 
+razgovor koji, za žrtvu, ne izlazi van okvira 
+uobičajenog. Kada žrtve nemaju razloga za sumnju, 
+napadačima je lako da pridobiju njihovo poverenje i, 
+koristeći svoje veštine, ostvare svoje namere.
 
 \item \textbf{Pomoć neprijatelja}
 
-Kada su ljudi uplašeni ili pod određenim pritiskom zbog nekog problema, skloni su da prihvate savete od osoba, koje ostavljaju utisak poverenja, a koje nikada nisu sreli. Napadač kroz pružanje pomoći žrtvi ostvaruje svoj cilj. On navodi žrtvu da instalira zlonamerni softver ili otkrije poverljive informacije, koje žrtva prepušta u nadi da će dovesti do rešenja problema. Početni problem može biti prouzrokovan od strane napadača \ref{pomoc_neprijatelja}.
+Kada su ljudi uplašeni ili pod određenim pritiskom 
+zbog nekog problema, skloni su da prihvate savete od 
+osoba, koje ostavljaju utisak poverenja, a koje nikada
+nisu sreli. Napadač kroz pružanje pomoći žrtvi
+ostvaruje svoje ciljeve. On navodi žrtvu da instalira 
+zlonamerni softver ili otkrije poverljive informacije, koje žrtva prepušta u nadi da će dovesti do rešenja 
+problema. Početni problem može biti prouzrokovan od strane napadača \ref{pomoc_neprijatelja}.
 
 \item \textbf{Iskorišćavanje osećanja}
 
-Iskusni društveni inženjeri su vešti u manipulisanju osećanjima žrtve. To čine koristeći psihološke okidače (eng.~{\em psychological triggers})\footnote{Automatski mehanizmi ljudske psihologije koji ih čine podložnim sugestiji.}, koji dovode do površnog pristupa žrtve problemu bez temeljne analize dostupnih informacija. Napadač izaziva saosećajnost žrtve izmišljajući problem, koji je žrtva prethodno i sama iskusila. Pored ovog pristupa, napadač može izazvati osećaj krivice kod žrtve ili koristiti zastrašivanje kao oružje.
-
-
+Iskusni društveni inženjeri su vešti u manipulisanju 
+osećanjima žrtve. To čine koristeći psihološke okidače (eng.~{\em psychological 
+triggers})\footnote{Automatski mehanizmi ljudske psihologije koji ih čine podložnim sugestiji.}, koji 
+dovode do površnog pristupa žrtve problemu bez 
+temeljne analize dostupnih informacija. Napadač 
+izaziva saosećajnost žrtve izmišljajući problem, koji 
+je žrtva prethodno i sama iskusila. Pored ovog 
+pristupa, napadač može izazvati osećaj krivice kod 
+žrtve ili koristiti zastrašivanje kao oružje.
 \end{itemize}
 
 
 \subsubsection{Najveća računarska prevara u istoriji}
 \label{hack_za_ginisa}
 
-Stenli Rifkin je, 1978. godine, radio za kompaniju zaduženu za razvoj sistema za bezbednost jedne od najvećih banaka u Los Anđelesu, pa je imao pristup poverljivim informacijama te banke. Radeći na odeljenju za prenos novca na daljinu (eng.~{\em wire room}), upoznao se sa procedurom transakcije. Službenici koji su imali ovlašćenje da nalože transfer, svakog jutra su dobijali kôd koji su u toku tog dana koristili u procesu autorizacije. Službenici bi najčešće napisali tu šifru na parčetu papira i ostavili je na sebi vidno mesto. 
+Stenli Rifkin je, 1978. godine, radio za kompaniju 
+zaduženu za razvoj sistema za bezbednost jedne od 
+najvećih banaka u Los Anđelesu, pa je imao pristup 
+poverljivim informacijama te banke. Radeći na 
+odeljenju za prenos novca na daljinu (eng.~{\em wire 
+room}), upoznao se sa procedurom transakcija. 
+Službenici koji su imali ovlašćenje da nalože 
+transfer, svakog jutra su dobijali kôd koji su u toku 
+tog dana koristili u procesu autorizacije. Službenici 
+bi najčešće napisali tu šifru na parčetu papira i 
+ostavili je na sebi vidno mesto. 
 
-Jednom je izvršavajući svoja zaduženja na odeljenju, uspeo da pročita aktuelni kôd sa parčeta papira jednog od službenika i da ga zapamti. Otišao je do govornice, odakle je pozvao jednog od zaposlenih u odeljenju za prenos novca i predstavio se kao član međunarodnog odeljenja banke. Posle uspešne autorizacije kôdom službenika, naložio je prenos deset miliona dolara na račun u Švajcarskoj, koji je prethodno otvorio. Postojao je deo koji je napadač propustio prilikom upoznavanja sa samom procedurom. Bio mu je potreban i broj međupartijskog poravnanja (eng.~{\em interoffice settlement number}). Nazvao je drugo odeljenje u banci, predstavio se kao zaposleni sa kojim je upravo razgovarao i tražio broj koji mu je nedostajao, uz obrazloženje da ga je zaboravio. Kada je saznao broj, ponovo je pozvao sobu za transfer novca na daljinu i uspešno završio transakciju. U Švajcarskoj je podigao novac kojim je kupio dijamante, koje je kasnije u kaišu prošvercovao nazad. Iako za ovaj poduhvat nije koristio računar, njegova prevara ušla je u Ginisovu knjigu rekorda u kategoriji 'najveća računarska prevara' \cite{deception}.
+Izvršavajući svoja zaduženja na odeljenju, uspeo je da pročita aktuelni kôd sa parčeta papira jednog od službenika i da ga zapamti. Otišao je do govornice, odakle je pozvao jednog od zaposlenih u odeljenju za prenos novca i predstavio se kao član međunarodnog odeljenja banke.
+Posle uspešne autorizacije kôdom službenika, naložio je prenos deset miliona dolara na račun u Švajcarskoj, koji je prethodno otvorio. Postojao je deo koji je napadač propustio prilikom upoznavanja sa samom procedurom. Bio mu je potreban i broj međupartijskog poravnanja (eng.~{\em interoffice settlement number}). Nazvao je drugo odeljenje u banci, predstavio se kao zaposleni sa kojim je upravo razgovarao i tražio broj koji mu je nedostajao, uz obrazloženje da ga je zaboravio. Kada je saznao broj, ponovo je pozvao sobu za transfer novca na daljinu i uspešno završio transakciju. U Švajcarskoj je podigao novac kojim je kupio dijamante, koje je kasnije u kaišu prošvercovao nazad. 
+
+Iako za ovaj poduhvat nije koristio računar, njegova prevara ušla je u Ginisovu knjigu rekorda u kategoriji 'najveća računarska prevara' \cite{deception}.
 
 \subsubsection{Zloupotreba poverenja}
 \label{pomoc_neprijatelja}
 
-Napadač je nazvao zaposlenog u kompaniji, čije tajne podatke je želeo da sazna i predstavio se kao tehnička podrška. Obavestio ga je da su u narednom periodu mogući problemi na mreži i da u slučaju nekog kvara pozove prvo njega. Posle nekoliko dana je pozvao mrežni operativni centar kompanije i predstavio se kao zaposleni u kompaniji, koristeći podatke radnika, kojeg je prvobitno nazvao. Od operatera je tražio da isključe mrežu u njegovoj kancelariji, kako bi otklonio kvar. Sada je mreža, u kancelariji žrtve napada, bila isključena, pa nije mogao da preuzme potrebne datoteke sa servera, razmenjuje informacije sa kolegama, proveri elektronsku poštu ili koristi štampač.
+Napadač Bobi Volas je nazvao zaposlenog u kompaniji 
+\textit{Starboard shipbuilding}, čije tajne podatke je želeo da sazna i predstavio se kao tehnička podrška. Obavestio ga je da su u narednom periodu mogući problemi na mreži i da u slučaju nekog kvara pozove prvo njega. Posle nekoliko dana je pozvao mrežni operativni centar kompanije i predstavio se kao zaposleni u kompaniji, koristeći podatke radnika, kojeg je prvobitno nazvao. Od operatera je tražio da isključe mrežu u njegovoj kancelariji, kako bi otklonio kvar. Sada je mreža, u kancelariji žrtve napada, bila isključena, pa nije mogao da preuzme potrebne datoteke sa servera, razmenjuje informacije sa kolegama, proveri elektronsku poštu ili koristi štampač.
 
 Zaposleni je, upozoren da do ovoga može doći, pozvao broj koji je nekoliko dana pre toga dobio od napadača. Napadač se trudio da zvuči željno da pomogne kolegi u nevolji, ali i da ga ubedi da mu pružanjem te pomoći čini veliku uslugu. Nakon nekog vremena pozvao je mrežni operativni centar i zatražio uključenje mreže. Posle toga je ponovo pozvao zaposlenog i koristeći osećaj zahvalnosti koji je otklanjanjem problema izazvao, lako ga ubedio da instalira aplikaciju, koju mu je predstavio kao zaštitu od budućih problema sa mrežom. U pitanju je bio računarski virus - trojanski konj \ref{Odisej}, koji je napadaču omogućio potpunu kontrolu nad žrtvinim računarom \cite{deception}.
 
@@ -218,29 +248,29 @@ Računarski virus je program koji se ugrađuje u izvršni kôd drugih programa. 
 \begin{itemize}
 \item \textbf{Virus sektora za podizanje sistema}
 
-Virus sektora za podizanje sistema (\textit{eng. Boot Sector Virus}) napada uređaje za skladištenje podataka, kao što su tvrdi (eng. \textit{hard drive}) ili flopi (eng. \textit{floppy}) diskovi, tako što izmeni njihovu glavnu sekciju za podizanje sistema. Kada se sistem jednom podigne sa zaraženim programom, virus se učita u radnu memoriju i dalje širi na sve flopi diskove ubačene u računar. Kako se u moderne operativne sisteme ugrađuju čuvari te kritične sekcije (eng. \textit{safeguard}), a flopi diskovi su izašli iz upotrebe, ovaj tip virusa je prevaziđen \cite{viruses_and_worms, computer_virus}.
+Virus sektora za podizanje sistema (\textit{eng. boot sector virus}) napada uređaje za skladištenje podataka, kao što su tvrdi (eng. \textit{hard drive}) ili flopi (eng. \textit{floppy}) diskovi, tako što izmeni njihovu glavnu sekciju za podizanje sistema. Kada se sistem jednom podigne sa zaraženim programom, virus se učita u radnu memoriju i dalje širi na sve flopi diskove ubačene u računar. Kako se u moderne operativne sisteme ugrađuju čuvari te kritične sekcije (eng. \textit{safeguard}), a flopi diskovi su izašli iz upotrebe, ovaj tip virusa je prevaziđen \cite{viruses_and_worms, computer_virus}.
 
 
 \item \textbf{Virus direktnih akcija}
 
-Virus direktnih akcija (\textit{eng. Direct Action Virus}) se aktivira čim dospe u sistem, ne sakriva se u memoriji i cilj mu je da se svakim izvršavanjem dodatno proširi kroz sistem. Virus inficira najpre tipove datoteka koje napadač odredi, a zatim i sistemske datoteke odgovorne za određene operacije prilikom podizanja sistema. Ovaj tip virusa nema za cilj brisanje datoteka ili smanjivanje performansi računara već prikupljanje i menjanje pristupa određenim podacima. Antivirusi veoma lako primete aktivnosti ovog tipa virusa \cite{directaction}.
+Virus direktnih akcija (\textit{eng. direct action virus}) se aktivira čim dospe u sistem, ne sakriva se u memoriji i cilj mu je da se svakim izvršavanjem dodatno proširi kroz sistem. Virus inficira najpre tipove datoteka koje napadač odredi, a zatim i sistemske datoteke odgovorne za određene operacije prilikom podizanja sistema. Ovaj tip virusa nema za cilj brisanje datoteka ili smanjivanje performansi računara već prikupljanje i menjanje pristupa određenim podacima. Antivirusi veoma lako primete aktivnosti ovog tipa virusa \cite{directaction}.
 
 
 \item \textbf{Prikriveni virus}
 
-Nasuprot virusu direktnih akcija prikriveni virus (\textit{eng. Resident Virus}) je specifičan po tome da ga je teško identifikovati i odstraniti. Virus se instalira na sistem i krije u memoriji računara. Modularan je, pa je tako svaki deo virusa zadužen za različitu malicioznu akciju. Korišćenje ovakvog tipa virusa indukovano je poznavanjem značajnih propusta na samom sistemu \cite{computer_virus}.
+Nasuprot virusu direktnih akcija prikriveni virus (\textit{eng. resident virus}) je specifičan po tome da ga je teško identifikovati i odstraniti. Virus se instalira na sistem i krije u memoriji računara. Modularan je, pa je tako svaki deo virusa zadužen za različitu zlonamernu aktivnost. Korišćenje ovakvog tipa virusa indukovano je poznavanjem značajnih propusta na samom sistemu \cite{computer_virus}.
 
 \item \textbf{Polimorfni virus}
 
-Polimorfni virus (\textit{eng. Polymorphic Virus}) je imun na tradicionalne antivirus programe. Ovaj tip virusa menja svoj izvršni kôd svaki put kada se kopira. Ovo dovodi do otežanog lociranja virusa pomoću antivirus programa, kao i do toga da se sam virus brzo širi kroz ceo sistem \cite{computer_virus}.
+Polimorfni virus (\textit{eng. polymorphic virus}) je imun na tradicionalne antivirus programe. Ovaj tip virusa menja svoj izvršni kôd svaki put kada se kopira. Ovo dovodi do otežanog lociranja virusa pomoću antivirus programa, kao i do toga da se sam virus brzo širi kroz ceo sistem \cite{computer_virus}.
 
 \item \textbf{Prepisujući virus}
 
-Prepisujući virus (\textit{eng. Overwrite Virus}) je jedan od najjednostavnijih virusa. Odlikuje se time što briše originalan kôd zaraženog programa i menja ga novim, zlonamernim kôdom. Kada se novonastali program pokrene, virus se širi kroz sistem. Kako zlonamerni program briše zaraženu datoteku parcijalno ili u celosti, nije moguće povratiti je \cite{overwriting_virus}.
+Prepisujući virus (\textit{eng. overwrite virus}) je jedan od najjednostavnijih virusa. Odlikuje se time što briše originalan kôd zaraženog programa i menja ga novim, zlonamernim kôdom. Kada se novonastali program pokrene, virus se širi kroz sistem. Kako zlonamerni program briše zaraženu datoteku parcijalno ili u celosti, nije moguće povratiti je \cite{overwriting_virus}.
 
 \item \textbf{Virus koji koristi prazan prostor}
 
-Virus koji koristi prazan prostor (\textit{eng. Spacefiller}) popunjava prazna mesta na zaraženom disku ili u izvršnom kôdu zaraženih datoteka. Prostor popunjava sopstvenim kopijama pri čemu se veličina originalne datoteke ne menja, stoga ga je veoma teško primetiti \cite{spacefiller_virus}.
+Virus koji koristi prazan prostor (\textit{eng. spacefiller}) popunjava prazna mesta na zaraženom disku ili u izvršnom kôdu zaraženih datoteka. Prostor popunjava sopstvenim kopijama pri čemu se veličina originalne datoteke ne menja, stoga ga je veoma teško primetiti \cite{spacefiller_virus}.
 
 \end{itemize}
 
@@ -257,11 +287,11 @@ Adver (\textit{eng. Adware}) se koristi u svrhu marketinga, tako što prati isto
 
 \item \textbf{Kolačići za praćenje}
 
-Kolačići za praćenje (eng.~{\em Tracking cookies}) prate sve akcije korisnika na internetu, kao što su istorija pretraživanja ili razmena podataka. Njihova podrazumevana namena nije zlonamerna, ali mogu da se iskoriste od strane sajber kriminalaca (eng. \textit{cyber criminal}) \cite{tracking_cookies}.
+Kolačići za praćenje (eng.~{\em tracking cookies}) prate sve akcije korisnika na internetu, kao što su istorija pretraživanja ili razmena podataka. Njihova podrazumevana namena nije zlonamerna, ali mogu da se iskoriste od strane sajber kriminalaca (eng. \textit{cyber criminal}) \cite{tracking_cookies}.
 
 \item \textbf{Posmatrači sistema}
 
-Posmatrači sistema (eng.~{\em System monitors}) prate sve akcije korisnika na računaru, registruju svaki pritisak dugmeta na tastaturi, pročitanu elektronsku poštu, razgovor na internetu, posećene veb stranice i korišćene programe \cite{spyware}.
+Posmatrači sistema (eng.~{\em system monitors}) prate sve akcije korisnika na računaru, registruju svaki pritisak dugmeta na tastaturi, pročitanu elektronsku poštu, razgovor na internetu, posećene veb stranice i korišćene programe \cite{spyware}.
     
 \end{itemize}
 
@@ -278,9 +308,16 @@ Primer trojanskog konja predstavlja softver \textit{Mocmex}, otkriven 2008. godi
 Mreža botova (eng.~{\em Botnet}) je kolekcija 
 međusobno povezanih zaraženih uređaja, koji su pod kontrolom istog tipa zlonamernog softvera. Korisnici zaraženih uređaja često nisu svesni da je njihov sistem deo mreže botova.
 
-Zaraženi uređaji se kontrolišu daljinski, bez korišćenja značajnih resursa računara, tako da njihove zlonamerne akcije bivaju sakrivene od korisnika. Mreže botova se koriste za slanje neželjene elektronske pošte ili preusmeravanje korisnika na zlokobne veb stranice. Mreža botova napada nedovoljno zaštićene uređaje, sa ciljem da se proširi na što više uređaja i da se računarska moć i resursi, kojima mreža raspolaže, iskoriste za automatske radnje koje ostaju skrivene od korisnika.
+Zaraženi uređaji se kontrolišu daljinski, bez 
+korišćenja značajnih resursa računara, tako da njihove zlonamerne akcije bivaju sakrivene od korisnika. Mreže botova se koriste za slanje neželjene elektronske 
+pošte ili preusmeravanje korisnika na zlokobne veb 
+stranice. Mreža botova napada nedovoljno zaštićene 
+uređaje, sa ciljem da se proširi na što više uređaja i da se računarska moć i resursi, kojima mreža 
+raspolaže, iskoriste za automatske radnje koje ostaju 
+skrivene od korisnika. Da bi ostala skrivena, mreža 
+koristi neprimetno mali protok podataka. 
 
-Mreža koja zarazi računar može kontrolisati veb pregledač da bi prikazivala reklame korisniku. Da bi ostala skrivena, mreža koristi neprimetno mali protok podataka. Mreža koja broji milione uređaja može da proizvede ogroman saobraćaj na željenim veb stranicama i na taj način, potpuno neprimećeno, napadačima donese materijalnu dobit. Može se koristiti i za \textit{DDoS} napade (eng. \textit{Distributed Denial of Service attack}). Ovi napadi otežavaju rad servera, tako što ga zatrpavaju velikom količinom zahteva \cite{botnet}.
+Mreža koja broji milione uređaja može da proizvede ogroman saobraćaj na željenim veb stranicama i na taj način, potpuno neprimećeno, napadačima donese materijalnu dobit. Može se koristiti i za \textit{DDoS} napade (eng. \textit{Distributed Denial of Service attack}). Ovi napadi otežavaju rad servera, tako što ga zatrpavaju velikom količinom zahteva \cite{botnet}.
 
 \subsubsection{Arhitektura mreže botova}
 
@@ -289,7 +326,15 @@ Kada inficiraju željeni broj uređaja, napadači mogu da kontrolišu mrežu na 
 Drugi, decentralizovani pristup uključuje mrežu ravnopravnih korisnika (eng.~{\em peer-to-peer}). Zaraženi uređaji komuniciraju unutar mreže i tako dele nove naredbe najskorije verzije zlonamernog softvera, koji njima upravlja \cite{botnet}.
 
 \subsection{Računarski crvi}
-Računarski crv (eng.~{\em Computer worm}) je zlonamerni program koji se umnožava, a zatim širi među međusobno povezanim računarima. Širenje crva unutar mreže računara uslovljeno je propustima u toj mreži ili operativnom sistemu \cite{norton_worm, ethics}.
+Računarski crv (eng.~{\em Computer worm}) je zlonamerni program koji se umnožava širenjem kroz mrežu međusobno povezanih računarima. Širenje crva unutar mreže uslovljeno je propustima u toj mreži ili operativnom sistemu \cite{norton_worm, ethics}. Na slici \ref{fig:crvsirenje} prikazana je ilustracija širenja računarskog crva kroz mrežu.
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.35]{worms.png}
+\end{center}
+\caption{Širenje računarskog crva kroz mrežu}
+\label{fig:crvsirenje}
+\end{figure}
 
 Računarski crv ne mora nužno biti zlonameran, ali uvek vrši neku vrstu ugrožavanja sistema, makar kroz usporavanje protoka podataka kroz mrežu. Česta primena crva je da kroz veliko širenje omogući uslove za druge vrste napada \ref{botnet}. U tom slučaju, crv instalira program pomoću kojeg se tim računarom može daljinski upravljati \cite{ethics}.
 
@@ -305,17 +350,27 @@ Internet crv je koristio greške u samom kôdu~{\em Unix} operativnog sistema, u
 
 
 \subsubsection{Saser}
-Saser (eng.~{\em Sasser}) je vrsta računarskog programa, koji je izazvao velike troškove širom sveta i podigao svest javnosti o važnosti ažuriranja softvera. Pušten je u opticaj 2004. godine. Saser je za širenje na skoro 18 miliona računara širom sveta iskoristio grešku u starijoj verziji~{\em Windows} operativnog sistema. Tako su računari koji nisu imali aktuelnu verziju operativnog sistema, među kojima su bili računari austrijske železnice i britanske obalske straže, postali neupotrebljivi \cite{ethics}.
+Saser (eng.~{\em Sasser}) je vrsta računarskog programa, koji je izazvao velike troškove i podigao svest javnosti o važnosti ažuriranja softvera. Pušten je u opticaj 2004. godine. Saser je za širenje na skoro 18 miliona računara širom sveta iskoristio grešku u starijoj verziji~{\em Windows} operativnog sistema. Tako su računari koji nisu imali aktuelnu verziju operativnog sistema, među kojima su bili računari austrijske železnice i britanske obalske straže, postali neupotrebljivi \cite{ethics}.
 
 \subsection{Ukrštanje veb lokacija}
 
-Koristeći tehniku ukrštanja veb lokacija (eng.~{\em Cross-Site scripting}), zlonamerni korisnik može postaviti kôd unutar veb stranice, koristeći propuste u bezbednosti. Postavljen kôd se izvršava u trenutku kada korisnik poseti datu stranicu i tada napadač najčešće dolazi do informacija o korisniku \cite{ethics,xss}.
+Koristeći tehniku ukrštanja veb lokacija (eng.~{\em Cross-Site scripting}), zlonamerni korisnik može 
+postaviti kôd unutar veb stranice, iskorišćavajući 
+propuste u bezbednosti. Postavljen kôd se izvršava u 
+trenutku kada korisnik poseti datu stranicu i tada 
+napadač najčešće dolazi do informacija o njemu. \cite{ethics,xss}.
 
 Primer propusta na veb stranicama je način čuvanja komentara na serveru. Komentari se čuvaju u bazi podataka bez obrade ili provere, a zatim prikazuju na klijentskoj strani veb aplikacije. Napadač, ostavljanjem komentara u određenom formatu, postavlja zlonamerni kôd. Kôd može izmeniti stranicu, tako da se prilikom posete korisnika veb aplikaciji aktivira program, koji šalje podatke korisnika napadaču. Ti podaci su uglavnom kolačići, ali mogu predstavljati lozinke i druge osetljive podatke \cite{xss}.
 
 \subsection{Usputno preuzimanje podataka }
 
-Usputno preuzimanje podataka (eng.~{\em Drive by downloads}) predstavlja napad na računar posetioca zaražene veb stranice, tako što se na njegov računar kopiraju zlonamerne datoteke. Napadač može izmeniti loše obezbeđenu veb stranicu, tako da se na računar svakog posetioca te stranice kopira određeni zlonamerni program, bez znanja korisnika. Posetilac može postati žrtva napada i svesnim preuzimanjem softvera sa zaražene veb stranice, čija namena je različita od predstavljene \cite{drivebydownloads, ethics}.
+Usputno preuzimanje podataka (eng.~{\em Drive by downloads}) predstavlja napad na računar posetioca zaražene veb stranice, tako što se na njegov računar kopiraju zlonamerne datoteke. Napadač može izmeniti
+loše obezbeđenu veb stranicu, tako da se na računar 
+svakog posetioca te stranice kopira određeni 
+zlonamerni program, bez znanja korisnika. Posetilac 
+može postati žrtva napada i svesnim preuzimanjem 
+softvera sa zaražene veb stranice, čija namena je 
+različita od predstavljene \cite{drivebydownloads, ethics}.
 
 \subsection{Mere zaštite od zlonamernog softvera}
 
@@ -356,19 +411,26 @@ Prednost napadača je to što sigurnosni sistem mora da pobedi svaki put, dok je
 \subsection{Hakovanje zarad uzbuđenja}
 \label{mladi_hakeri}
 
-Džonatan Džejms, u potpisu \textit{Comrade}, je najmlađa osoba ikada osuđena za hakovanje na teritoriji Sjedinjenih Američkih Država. Njegov prijatelj \textit{Ne0h} je već sa deset godina počeo da se bavi hakovanjem.  \textit{Comrade} i \textit{Ne0h} su se upoznali preko sajtova koji su predstavljali sobe u kojima su ljudi sličnih interesovanja mogli da razmenjuju informacije u tekstualnom formatu (eng. \textit{Internet Relay Chat, IRC}). Hakeri se često udružuju u grupe kako bi razmenjivali informacije i organizovali grupne napade.
+Džonatan Džejms, u potpisu \textit{Comrade}, je najmlađa osoba ikada osuđena za hakovanje na teritoriji Sjedinjenih Američkih Država. Njegov prijatelj \textit{Ne0h} je već sa deset godina počeo da se bavi hakovanjem.  \textit{Comrade} i 
+\textit{Ne0h} su se upoznali preko sajtova koji su predstavljali sobe u kojima su ljudi sličnih interesovanja mogli da razmenjuju informacije u tekstualnom formatu (eng. \textit{Internet Relay Chat, IRC}). Hakeri se često udružuju u grupe kako bi razmenjivali informacije i organizovali grupne napade.
 
 Sredinom 1998. godine na jednom od tih sajtova \textit{Comrade} je stupio u kontakt sa Halidom Ibrahimom, čovekom za koga se u zajednici pričalo da regrutuje ljude za upade na vladine sajtove i koji radi za, tada ne toliko poznatog teroristu, Bin Ladena. Halid je stupio u kontakt i sa \textit{Ne0h}-om kome je obećao 1000\$ ukoliko uspe da hakuje tehnički univerzitet u Kini. Ovaj zadatak, koji je bio samo test njegovih sposobnosti, je uspešno obavio.
 
-Nakon nekoliko uspešnih probnih zadataka, od njega je zatraženo da hakuje avio kompaniju Boing (eng. \textit{Boeing}). \textit{Ne0h} je uspeo da provali širi obruč mreže i ostavi program koji mu je dao uvid u sve dolazne i odlazne pakete (eng. \textit{sniffer}). Na ovaj način uspeo je da sazna nekoliko korisničkih imena i lozinki koji su mu omogućili da uđe dublje u sistem. Uspeo je da dođe u posed i isporuči Khalidu šeme vrata na avionu Boing 747, šemu pilotske kabine, kao i celog nosa aviona. Za \textit{Comrade}-a je imao samo jedan zadatak, da hakuje \textit{SIPRNET}\footnote{Mreža koju je koristila vojska i druge vladine bezbednosne agencije za brz prenos naređenja na celoj teritoriji države.}. Prihvatio je ovaj zadatak, zbog izazova koji je predstavljao, i uspeo da na nekoliko računara na mreži ostavi program koji je pratio komunikaciju.
+Nakon nekoliko uspešnih probnih zadataka, od njega je zatraženo da hakuje avio kompaniju Boing (eng. \textit{Boeing}). \textit{Ne0h} je uspeo da provali širi obruč mreže i ostavi program koji mu je dao uvid u sve dolazne i odlazne pakete (eng. \textit{sniffer}). Na ovaj način uspeo je da sazna nekoliko korisničkih imena i lozinki koji su mu omogućili da uđe dublje u sistem. Uspeo je da dođe u posed i isporuči Halidu šeme vrata na avionu Boing 747, šemu pilotske kabine, kao i celog nosa aviona. Za \textit{Comrade}-a je imao  zadatak da hakuje \textit{SIPRNET}\footnote{Mreža koju je koristila vojska i druge vladine bezbednosne agencije za brz prenos naređenja na celoj teritoriji države.}. Iako je ovo predstavljalo ogroman rizik uspeo je da na nekoliko računara na mreži ostavi program koji je pratio komunikaciju.
 
 U isto vreme, u Indiji su teroristi oteli avion. Sleteli su u Afganistan i tu čekali osam dana dok vlasti nisu pristale da oslobode trojicu ekstremista iz zatvora. Među njima bio je i Šîh Umer, koji će kasnije postati glavni finansijer Muhameda Ate, vođe terorista koji su izveli napad 9.11.2001. Halid je u razgovoru sa \textit{Comrade}-om rekao da je i on sam bio deo otmice. Nakon ovoga, počeo je da uklanja tragove svojih aktivnosti povezanih sa njim.
 
-Nekoliko dana posle njegovog upada u \textit{SIPRNET}, njegovog oca je, na putu do posla, zaustavio \textit{FBI} i predočio mu da imaju par pitanja za njegovog sina. Vlasnik računara na koji je uspeo da se infiltrira, bila je \textit{NASA} (eng. \textit{National Aeronautics and Space Administration}). Optužen je za tronedeljni zastoj u radu te organizacija, kao i za presretanje elektronske pošte ministarstva odbrane. Na jednom od njegovih diskova pronađen je program koji bi mu omogućio da kontroliše temperaturu i vlažnost vazduha na Internacionalnoj svemirskoj stanici. Iako star samo petnaest godina, osuđen je na šest meseci zatvora čime je pravosudni sistem poslao jasnu poruku maloletnim hakerima da im neće biti gledano kroz prste.
+Nekoliko dana posle njegovog upada u \textit{SIPRNET}, njegovog oca je kontaktirao \textit{FBI}. Vlasnik računara na koji je uspeo da se infiltrira, bila je \textit{NASA} (eng. \textit{National Aeronautics and Space Administration}). Optužen je za tronedeljni 
+zastoj u radu te organizacije, kao i za presretanje 
+elektronske pošte ministarstva odbrane. Na jednom od 
+njegovih diskova pronađen je program koji bi mu 
+omogućio da kontroliše temperaturu i vlažnost vazduha 
+na Internacionalnoj svemirskoj stanici. Iako star samo petnaest godina, osuđen je na šest meseci zatvora čime je pravosudni sistem poslao jasnu poruku maloletnim hakerima da im neće biti gledano kroz prste.
 
-U intervjuu 2002. godine, jedan indijski general je objavio da je baza
-U intervjuu 2002. godine jedan Indijski general je izneo informaciju da je u napadima koji su se desili godinu dana ranije umešan i Halid Ibrahim koji je, kako je general izjavio, bio povezan sa hakerskim organizacijama i izrazio žaljenje što je baza ovog teroriste bio Nju Delhi. Jedna od tih hakerskih organizacija bila je i \textit{gLobaLheLL}, čiji je vođa \textit{Zyklon} takođe imao kontakte sa Halidom. Ta grupa uspela je 1999. godine da upadne na sajt vojnog saveza \textit{NATO}, kao i u mrežu Bele kuće i objavi zvučne i video zapise sa ličnog računara tadašnjeg predsednika Bila Klintona. U toku samog napada Halid je stupio u kontakt sa \textit{Zyklon}-om kome se ovaj pohvalio da su upravo upali u računarski sistem Bele kuće. Nakon toga, pojavio se sistem administrator i na mrežu instalirao program, koji je pratio svu aktivnost i zabeležio adrese napadača.
+U intervjuu 2002. godine, indijski general je objavio da je baza Halida Ibrahima, povezanog sa hakerskim organizacijama, bila u Nju Delhiju. Jedna od tih hakerskih organizacija bila je i \textit{gLobaLheLL}, čiji je vođa \textit{Zyklon} takođe imao kontakte sa Halidom. Ta grupa uspela je 1999. godine da upadne na sajt vojnog saveza \textit{NATO}, kao i u mrežu Bele kuće i objavi zvučne i video zapise sa ličnog računara tadašnjeg predsednika Bila Klintona. U toku samog napada, Halid je stupio u kontakt sa \textit{Zyklon}-om kome se ovaj pohvalio da su upravo upali u računarski sistem Bele kuće. Nakon toga, pojavio se sistem administrator i na mrežu instalirao program, koji je pratio svu aktivnost i zabeležio adrese napadača.
 
-Na saslušanju \textit{Zyklon} je imao uvid u dokumente u kojima je pisalo da su nadležni za napad saznali od FBI-ovog doušnika iz Nju Delhija. Ostalo je nepoznato da li je Khalid bio samo doušnik FBI-a ili dupli agent i pravi terorista kako je kasnije izjavio Indijski general i da li su informacije, koje su mu dala deca sa kojom je bio u kontaktu, na neki način pomogle u terorističkim napadima koji su sledili. Vlada je nakon svih tih dešavanja shvatila koliku pretnju predstavlja terorizam, kolike su zaista mogućnosti informatičkog ratovanja \ref{cyberwarfare} i koliko su njihovi sistemi bili izloženi \cite{intrusion}.
+Na saslušanju \textit{Zyklon} je imao uvid u dokumente u kojima je pisalo da su nadležni za napad saznali od doušnika FBI-a iz Nju Delhija. Ostalo je nepoznato da li je Halid bio samo doušnik FBI-a ili dupli agent i pravi terorista, kako je kasnije izjavio indijski general i da li su informacije, koje su mu dali mladi hakeri sa kojima je bio u kontaktu, na neki način pomogle u terorističkim napadima koji su sledili. 
+
+Vlada je nakon tih događaja shvatila koliku pretnju predstavlja terorizam, kolike su mogućnosti informatičkog ratovanja \ref{cyberwarfare} i koliko su njihovi sistemi zaista bili izloženi \cite{intrusion}.
 
 \end{document}
